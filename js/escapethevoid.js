@@ -14,7 +14,7 @@ screens = [
         },
         mouseup: function (x, y) {
             if(zoneclick(150, 200, 200, 50, x, y)) {
-                change_screen();
+                change_screen(1);
             }
         }
     }
